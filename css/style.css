@@ -426,3 +426,115 @@ td,
 th {
   padding: 0;
 }
+html{
+	font-size: 16px;
+}
+body{
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   background: #000000;
+   background-image: -o-linear-gradient(-89deg, rgba(255,255,255,0.50) 0%, rgba(113,113,113,0.50) 65%, rgba(0,0,0,0.50) 100%);
+   background-image: -moz-linear-gradient(-89deg, rgba(255,255,255,0.50) 0%, rgba(113,113,113,0.50) 65%, rgba(0,0,0,0.50) 100%);
+   background-image: -ms-linear-gradient(-89deg, rgba(255,255,255,0.50) 0%, rgba(113,113,113,0.50) 65%, rgba(0,0,0,0.50) 100%);
+   background-image: linear-gradient(-179deg, rgba(255,255,255,0.50) 0%, rgba(113,113,113,0.50) 65%, rgba(0,0,0,0.50) 100%);
+
+}
+
+body,html,.container{
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden;
+}
+input[type=text] ,input[type=submit]{
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+input[type=text] {
+  width: 100%;
+  height: 25%;
+  font-size: 4em;
+  border: 0;
+  padding: 0px 30px;
+  background-color: rgba(0,0,0,.5);
+  color: rgba(225,225,225,.75);
+}
+
+input[type=submit]{
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	background-color:rgba(163,203,174,100);
+	box-shadow: none;
+	color: rgba(225,225,225,100);
+	font-size: 2em;
+	border: 0;
+	outline: 0;
+	left: 80%;
+	top: 9%;
+}
+ .list{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ul{
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 2em;
+	color: rgba(225,225,225,.7);
+}
+li{
+	width: 100%;
+	height: 15%;
+	padding: 0 5%;
+
+}
+
+span{
+	display: inline-block;
+	margin-top: 2%;
+}
+
+
+.one{
+	background-color: #003E72;
+}
+
+.two{
+	background-color: #0060B2;
+}
+
+.three{
+	background-color: #0074D8
+}
+
+.four{
+	background-color: #0082F2;
+}
+
+.five{
+	background-color: #0089FF;
+}
+/*
+MEDIA QUERIES*/
+
+@media screen and (max-width: 700px){
+	input[type=text]{
+		height: 40%;
+		font-size: 3em;
+	}
+	input[type=submit]{
+		display: block;
+		position: static;
+		margin: 3% auto;
+
+	}
+}
+
+
