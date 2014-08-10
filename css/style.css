@@ -501,6 +501,22 @@ span{
 	margin-top: 2%;
 }
 
+.check{
+	margin-left: 75%;
+	margin-right: 5%;
+}
+
+.check, .remove{
+	transition: all .5s ease;
+}
+
+.check:hover{
+	color:rgba(163,203,174,100);
+}
+
+.remove:hover{
+	color:rgba(231, 76, 60,1.0);
+}
 
 .one{
 	background-color: #003E72;
@@ -521,6 +537,11 @@ span{
 .five{
 	background-color: #0089FF;
 }
+
+.checked{
+	opacity: .1 !important;
+}
+
 /*
 MEDIA QUERIES*/
 
@@ -534,6 +555,10 @@ MEDIA QUERIES*/
 		position: static;
 		margin: 3% auto;
 
+	}
+
+	.check{
+		margin-left: 60%;
 	}
 }
 
